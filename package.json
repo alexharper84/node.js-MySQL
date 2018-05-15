@@ -1,0 +1,33 @@
+{
+  "name": "node.js-mysql",
+  "version": "1.0.0",
+  "description": "nodejs mysql app",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0",
+    "npm": "^6.0.1",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexharper84/node.js-MySQL.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "npm",
+    "mysql"
+  ],
+  "author": "Alexander Harper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexharper84/node.js-MySQL/issues"
+  },
+  "homepage": "https://github.com/alexharper84/node.js-MySQL#readme"
+}
