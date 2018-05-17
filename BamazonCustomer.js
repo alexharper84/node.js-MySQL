@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
+  password: "4Root12!",
   database: "Bamazon"
 });
 
@@ -24,7 +24,7 @@ function custmrCart() {
   connection.query('SELECT * FROM Products', function(err, res){
 
     for (var i = 0; i < res.length; i++) {
-      console.log('Item: ' + res[i].ProductName + ' | Price: ' + res[i].Price + ' | Stock: ' + res[i].StockQuantity);
+      console.log('Item: ' + res[i].ProductName + ' | Price: ' + res[i].Price + ' | Stock: ' + res[i].StockQuantity + ' | Department: ' + res[i].DepartmentName);
     }
 
     inquirer.prompt([{
