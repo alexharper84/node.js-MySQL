@@ -16,13 +16,20 @@ sqlDBconnect.connect(function(err) {
   console.log('Connection successful ID#: ' + sqlDBconnect.threadId);
 });
 
-startCart();
+custmrCart();
 
-function startCart() {
+function custmrCart() {
   sqlDBconnect.query('SELECT * FROM Products', function(err, res) {
-    console.log('begin');
-    console.log(res);
-    console.log('end');
-    return
+    // console.log('begin');
+    // console.log(res);
+    // console.log('end');
+    // return
+    for (var i = 0, i < res.length; i++) {
+      console.log(
+        'Item: ' + res[i].ProductName
+      + ' | Price: ' + res[i].Price
+      + ' | Stock: ' + res[i].StockQuantity);
+    }
+
   })
 };
