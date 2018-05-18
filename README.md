@@ -18,7 +18,7 @@ Once the customer has placed the order, the application will check if the store 
 
 - if the store is out of stock, the app will reply with:
 > "Not enough in stock!"
-- if the transaction is successful:
+- if the transaction was successful:
 > "Thanks for your purchase!"
 ---
 The app will then print a receipt of the purchase and give the customer the option to make another purchase.
