@@ -1,6 +1,6 @@
 ## Bamazon Command Line App
 
-### A node app built with **nodejs** and **MySql**. Bamazon takes in orders from customers and depletes stock from the store's inventory.
+A node app built with **nodejs** and **MySql**. Bamazon takes in orders from customers and depletes stock from the store's inventory.
 ***
 
 
