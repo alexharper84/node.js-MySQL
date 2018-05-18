@@ -1,13 +1,13 @@
-##Bamazon Command Line App
+## Bamazon Command Line App
 
-###A node app built with **nodejs** and **MySql**. Bamazon takes in orders from customers and depletes stock from the store's inventory.
+### A node app built with **nodejs** and **MySql**. Bamazon takes in orders from customers and depletes stock from the store's inventory.
 ***
 
 
-###Running this application will first display all of the items available for purchase, including price, quantity and department.
+### Running this application will first display all of the items available for purchase, including price, quantity and department.
 ![alt text](http://www.santamonicawebmaster.com/bootcamp/BamazonRunDown.gif "Logo Title Text 1")
 
-##CLI Operation
+## CLI Operation
 
 Bamazon will prompt users with two questions:
 
@@ -23,4 +23,4 @@ Once the customer has placed the order, the application will check if the store 
 ---
 The app will then print a reciept of the purchase and give the customer the option to make another purchase.
 ***
-###Happy Buying!
+### Happy Buying!
